@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: telegramservice
+  datasource:
+    url: jdbc:postgresql://localhost:5432/telegrambot
+    username: user
+    password: password
+server:
+  port: 8084
+
+
+telegram:
+  token: 7748871129:AAFEkaxtqO3ex7pgLGhef2xLbJbsIiWpIlg
+  name: TestTelegramfBot
