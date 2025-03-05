@@ -1,5 +1,9 @@
 spring:
   application:
     name: backendservice
+  datasource:
+    url: jdbc:postgresql://localhost:5432/telegrambot
+    username: user
+    password: password
 server:
   port: 8080
